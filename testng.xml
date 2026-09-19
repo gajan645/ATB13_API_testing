@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/appinessr/IdeaProjects/ATB13_API_testing">
+        <classes>
+            <class name="ex_03_TestNG_Allure_Report.API_Testing_Lab_06_Test_Case">
+                <methods>
+                    <include name="test_tc1_pincode_valid"/>
+                    <include name="test_tc2_pincode_Invalid"/>
+                    <include name="test_tc3_pincode_Invalid"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
+
