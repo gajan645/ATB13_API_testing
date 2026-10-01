@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parallel-Methods" parallel="tests" thread-count="3">
+    <test name="API_smoke">
+        <classes>
+            <class name="ex_05_TestNG_Example.test_leval.API_smoke"/>
+        </classes>
+    </test>
+
+    <test name="DB_Smoke">
+        <classes>
+            <class name="ex_05_TestNG_Example.test_leval.DB_Smoke"/>
+        </classes>
+    </test>
+
+
+    <test name="UI_Smoke">
+        <classes>
+            <class name="ex_05_TestNG_Example.test_leval.UI_Smoke"/>
+        </classes>
+    </test>
+
+
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/appinessr/IdeaProjects/ATB13_API_testing">
+<groups>
+    <run>
+        <include name="reg"></include>
+        <include name="smoke"></include>
+    </run>
+</groups>
+
+
+        <classes>
+            <class name="ex_05_TestNG_Example.APITesting_018_TestNG_groups">
+
+            </class>
+        </classes>
+    </test>
+</suite>
